@@ -1,0 +1,394 @@
+/**reset**/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/****/
+
+.top {
+    background: #333;
+    width: 100vw;
+    height: 500px;
+    color: #fff;
+}
+
+.top-title {
+    font-family: "Franklin Gothic Heavy";
+    margin: 0 auto 25px;
+    padding: 200px 0 0 0;
+    font-size: 70px;
+    width: 620px;
+    height: 70px;
+}
+
+.top-text {
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 0.5px;
+}
+
+.team-link{
+    display: block;
+}
+
+.streetFighter {
+    background: #eee;
+    padding: 25px 0 25px 0;
+    width: 100vw;
+}
+
+.street-backImage {
+    background-image: url(../img/streetfighter5.png);
+    background: no-repeat cover;
+    width: 980px;
+    height: 285px;
+    margin: 0 auto;
+}
+
+.street-title {
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    font-family: "Franklin Gothic Heavy";
+    line-height: 285px;
+    text-shadow:3px 0px 3px #000000;
+}
+
+.duta2 {
+    background: #333;
+    padding: 25px 0 25px 0;
+    width: 100vw;
+}
+
+.duta-backImage {
+    background-image: url(../img/dota.png);
+    background-repeat: no-repeat;
+    width: 980px;
+    height: 285px;
+    margin: 0 auto;
+}
+
+.duta-title {
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    font-family: "Franklin Gothic Heavy";
+    line-height: 285px;
+    text-shadow:3px 0px 3px #000000;
+}
+
+.csgo {
+    background: #fff;
+    padding: 25px 0 25px 0;
+    width: 100vw;
+}
+
+.cs-backImage {
+    background-image: url(../img/csgo.png);
+    background-repeat:no-repeat;
+    width: 980px;
+    height: 285px;
+    margin: 0 auto;
+}
+
+.cs-title {
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    font-family: "Franklin Gothic Heavy";
+    line-height: 285px;
+    text-shadow:3px 0px 3px #000000;
+}
+
+
+.splaToon {
+    background: #333;
+    padding: 25px 0 25px 0;
+    width: 100vw;
+}
+
+.spl-backImage {
+    background-image: url(../img/splatoon-2.png);
+    background: no-repeat cover;
+    width: 980px;
+    height: 285px;
+    margin: 0 auto;
+}
+
+.spl-title {
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    font-family: "Franklin Gothic Heavy";
+    line-height: 285px;
+    text-shadow:3px 0px 3px #000000;
+}
+
+.smashBro {
+    background: #fff;
+    padding: 25px 0 25px 0;
+    width: 100vw;
+}
+
+.sml-backImage {
+    background-image: url(../img/smash.png);
+    background: no-repeat cover;
+    width: 980px;
+    height: 285px;
+    margin: 0 auto;
+}
+
+.sml-title {
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    font-family: "Franklin Gothic Heavy";
+    line-height: 285px;
+    text-shadow:3px 0px 3px #000000;
+}
+
+.fifa {
+    background: #333;
+    padding: 25px 0 25px 0;
+    width: 100vw;
+}
+
+.fifa-backImage {
+    background-image: url(../img/fifa2020.png);
+    background: no-repeat cover;
+    width: 980px;
+    height: 285px;
+    margin: 0 auto;
+}
+
+.fifa-title {
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    font-family: "Franklin Gothic Heavy";
+    line-height: 285px;
+    text-shadow:3px 0px 3px #000000;
+}
+
+.winingElevn {
+    background: #fff;
+    padding: 25px 0 25px 0;
+    width: 100vw;
+}
+
+.we-backImage {
+    background-image: url(../img/we.png);
+    background: no-repeat cover;
+    width: 980px;
+    height: 285px;
+    margin: 0 auto;
+}
+
+.we-title {
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    font-family: "Franklin Gothic Heavy";
+    line-height: 285px;
+    text-shadow:3px 0px 3px #000000;
+}
+
+.overWatch {
+    background: #333;
+    padding: 25px 0 25px 0;
+    width: 100vw;
+}
+
+.ow-backImage {
+    background-image: url(../img/overwotch.png);
+    background: no-repeat cover;
+    width: 980px;
+    height: 285px;
+    margin: 0 auto;
+}
+
+.ow-title {
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    font-family: "Franklin Gothic Heavy";
+    line-height: 285px;
+    text-shadow:3px 0px 3px #000000;
+}
+
+.r6s {
+    background: #fff;
+    padding: 25px 0 25px 0;
+    width: 100vw;
+}
+
+.r6s-backImage {
+    background-image: url(../img/rainbow1.png);
+    background: no-repeat cover;
+    width: 980px;
+    height: 285px;
+    margin: 0 auto;
+}
+
+.r6s-title {
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    font-family: "Franklin Gothic Heavy";
+    line-height: 285px;
+    text-shadow:3px 0px 3px #000000;
+}
+
+.collOfDuty {
+    background: #333;
+    padding: 25px 0 25px 0;
+    width: 100vw;
+}
+
+.cod-backImage {
+    background-image: url(../img/CoDMW_Reveal_03_wm.png);
+    background: no-repeat cover;
+    width: 980px;
+    height: 285px;
+    margin: 0 auto;
+}
+
+.cod-title {
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    font-family: "Franklin Gothic Heavy";
+    line-height: 285px;
+    text-shadow:3px 0px 3px #000000;
+}
