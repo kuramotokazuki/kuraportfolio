@@ -463,6 +463,15 @@ body {
   font-weight: bold;
 }
 
+.works__wrap .works__work {
+  box-shadow: #675FDE 1px 1px 15px;
+  transition: 0.5s;
+}
+
+.works__wrap .works__work:hover {
+  box-shadow: #675FDE 1px 1px 30px;
+}
+
 .works__wrap .filter__wrap {
   width: 888px;
   margin: 104px auto 0;
